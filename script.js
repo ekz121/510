@@ -110,7 +110,7 @@ const searchInput = document.querySelector('#searchInput');
 const emptySearch = document.querySelector('.empty-search');
 searchInput.addEventListener('input', () => {
   const query = searchInput.value.trim().toLowerCase();
-  const visible = 'hltc x so asu'.includes(query);
+  const visible = 'hltc x ...... 510 origin rock'.includes(query);
   trackRow.hidden = !visible;
   emptySearch.hidden = visible;
 });
