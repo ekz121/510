@@ -3,3 +3,5 @@ preview-*.png
 Thumbs.db
 preview-*.jpg
 .chrome-render*/
+preview-*.html
+preview-*.txt

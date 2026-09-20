@@ -1,13 +1,19 @@
-# HLTC Music Player
+# 510 Music Experience
 
-Website pemutar musik responsif bernuansa band rock 510 untuk lagu **HLTC x ......**. Dibuat dengan HTML, CSS, dan JavaScript murni agar ringan serta dapat langsung diterbitkan melalui GitHub Pages.
+Website katalog musik responsif untuk 510, berisi 23 rekaman resmi dari EP Get Closer with 510 sampai Heavy Lies The Crown serta satu audio lokal berjudul **Special Song** di posisi pertama.
 
-Foto band bersumber dari Wikimedia Commons, karya Aqilla Rahmi, dengan lisensi CC BY-SA 4.0.
+## Fitur
+
+- Pemutar audio lokal untuk Special Song
+- Katalog, pencarian, filter album, dan pengurutan 24 track
+- Favorit serta antrean tersimpan di browser
+- Menu tiap lagu untuk favorit, antrean, berbagi, dan membuka Spotify
+- Layout responsif desktop dan mobile
 
 ## Menjalankan lokal
 
-Buka `index.html` di browser, atau jalankan server statis dari folder proyek.
+Buka `index.html` di browser atau jalankan server statis dari folder proyek.
 
-## GitHub Pages
+## Kredit visual
 
-Pada repository GitHub, buka **Settings → Pages**, lalu pilih **Deploy from a branch**, branch `main`, folder `/ (root)`.
+Artwork musik merujuk pada katalog Apple Music/Spotify dan ditautkan kembali ke layanan musik terkait. Foto formasi terbaru bersumber dari publikasi Primetime News yang mengkredit Instagram `@official510music`. Seluruh hak musik, foto, dan artwork dimiliki pemegang hak masing-masing.
