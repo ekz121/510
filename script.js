@@ -1,28 +1,28 @@
 const tracks = [
   { id: 'special', title: 'Special Song', artist: '510 · Exclusive', album: 'Special Release', year: 2026, duration: '0:56', seconds: 56, group: 'latest', cover: 'assets/510-current.webp', local: true, order: 20 },
-  { id: 'heavy-lies-the-crown', title: 'Heavy Lies The Crown', artist: '510', album: 'Single', year: 2026, duration: '4:20', group: 'latest', cover: 'assets/510-current.webp', spotify: 'https://open.spotify.com/search/510%20Heavy%20Lies%20The%20Crown', order: 19 },
-  { id: 'esa-x-perih', title: 'ESA X PERIH', artist: '510, Vierratale', album: 'Single', year: 2026, duration: '4:12', group: 'latest', cover: 'assets/esa.jpg', spotify: 'https://open.spotify.com/search/510%20ESA%20X%20PERIH', order: 18 },
-  { id: 'your-song', title: 'Your Song', artist: '510', album: 'Get Closer with 510', year: 2021, duration: '3:20', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/track/7ucGzV0yQJHMi6AE89V9xk', order: 0.9 },
-  { id: 'deeper-than-the-ocean', title: 'Deeper Than The Ocean', artist: '510, Mustika Kamal', album: 'Get Closer with 510', year: 2021, duration: '4:34', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/search/510%20Deeper%20Than%20The%20Ocean', order: 0.8 },
-  { id: 'alive-get-closer', title: 'Alive (Get Closer Version)', artist: '510, Andi Cakcak', album: 'Get Closer with 510', year: 2021, duration: '5:18', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/intl-id/track/0akbT3Ny7EhBM43TQa9n2m', order: 0.7 },
-  { id: 'devils-need', title: "Devil's Need", artist: '510', album: 'Get Closer with 510', year: 2021, duration: '4:16', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/search/510%20Devil%27s%20Need', order: 0.6 },
-  { id: 'ritual', title: 'Ritual', artist: '510', album: 'Spiritual', year: 2025, duration: '5:54', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', order: 17 },
-  { id: 'mimbar', title: 'Mimbar', artist: '510', album: 'Spiritual', year: 2025, duration: '4:46', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', order: 16 },
-  { id: 'dead-clown', title: 'Dead Clown', artist: '510, Bimopd', album: 'Spiritual', year: 2025, duration: '3:21', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', order: 15 },
-  { id: 'amo', title: 'AMO', artist: '510, Fanny Soegi', album: 'Spiritual', year: 2025, duration: '3:52', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', order: 14 },
-  { id: 'plastic-faith', title: 'Plastic Faith', artist: '510', album: 'Spiritual', year: 2025, duration: '4:18', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', order: 13 },
-  { id: 'r-u-broken-2', title: 'R U Broken 2?', artist: '510', album: 'Spiritual', year: 2025, duration: '4:52', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', order: 12 },
-  { id: 'where-do-we-came-from', title: 'WhereDoWeCameFrom', artist: '510', album: 'Origin', year: 2023, duration: '2:41', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 11 },
-  { id: 'collapsed', title: 'Collapsed', artist: '510', album: 'Origin', year: 2021, duration: '3:45', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 10 },
-  { id: 'the-last-suffer', title: 'The Last Suffer', artist: '510', album: 'Origin', year: 2021, duration: '3:57', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 9 },
-  { id: 'death-parade', title: 'Death Parade', artist: '510', album: 'Origin', year: 2023, duration: '3:33', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 8 },
-  { id: 'mama', title: 'Mama', artist: '510', album: 'Origin', year: 2023, duration: '4:02', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 7 },
-  { id: 're-mine', title: 'Re-Mine', artist: '510', album: 'Origin', year: 2023, duration: '3:47', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 6 },
-  { id: 'sorry', title: 'Sorry', artist: '510', album: 'Origin', year: 2023, duration: '4:28', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 5 },
-  { id: 'esa', title: 'Esa', artist: '510', album: 'Origin', year: 2023, duration: '4:00', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 4 },
-  { id: 'alive', title: 'Alive', artist: '510', album: 'Origin', year: 2021, duration: '4:11', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 3 },
-  { id: 'callout', title: 'Callout', artist: '510', album: 'Origin', year: 2023, duration: '3:35', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 2 },
-  { id: 'emotional-renegades', title: 'Emotional Renegades', artist: '510', album: 'Origin', year: 2022, duration: '3:00', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', order: 1 }
+  { id: 'heavy-lies-the-crown', title: 'Heavy Lies The Crown', artist: '510', album: 'Single', year: 2026, duration: '4:20', group: 'latest', cover: 'assets/510-current.webp', spotify: 'https://open.spotify.com/search/510%20Heavy%20Lies%20The%20Crown', youtubeId: 'Pliq_68YV6s', order: 19 },
+  { id: 'esa-x-perih', title: 'ESA X PERIH', artist: '510, Vierratale', album: 'Single', year: 2026, duration: '4:12', group: 'latest', cover: 'assets/esa.jpg', spotify: 'https://open.spotify.com/search/510%20ESA%20X%20PERIH', youtubeId: 'g1ShexE8ko8', order: 18 },
+  { id: 'your-song', title: 'Your Song', artist: '510', album: 'Get Closer with 510', year: 2021, duration: '3:20', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/track/7ucGzV0yQJHMi6AE89V9xk', youtubeId: '58An6s2wne8', order: 0.9 },
+  { id: 'deeper-than-the-ocean', title: 'Deeper Than The Ocean', artist: '510, Mustika Kamal', album: 'Get Closer with 510', year: 2021, duration: '4:34', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/search/510%20Deeper%20Than%20The%20Ocean', youtubeId: 'vzFDOZIFl7M', order: 0.8 },
+  { id: 'alive-get-closer', title: 'Alive (Get Closer Version)', artist: '510, Andi Cakcak', album: 'Get Closer with 510', year: 2021, duration: '5:18', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/intl-id/track/0akbT3Ny7EhBM43TQa9n2m', youtubeId: 'EPYJ_84CygM', order: 0.7 },
+  { id: 'devils-need', title: "Devil's Need", artist: '510', album: 'Get Closer with 510', year: 2021, duration: '4:16', group: 'get-closer', cover: 'assets/get-closer.jpg', spotify: 'https://open.spotify.com/search/510%20Devil%27s%20Need', youtubeId: 'fYi9-u9MDEg', order: 0.6 },
+  { id: 'ritual', title: 'Ritual', artist: '510', album: 'Spiritual', year: 2025, duration: '5:54', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', youtubeId: 'FoRx2x0iD2Q', order: 17 },
+  { id: 'mimbar', title: 'Mimbar', artist: '510', album: 'Spiritual', year: 2025, duration: '4:46', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', youtubeId: 'qS2BQoj9WVE', order: 16 },
+  { id: 'dead-clown', title: 'Dead Clown', artist: '510, Bimopd', album: 'Spiritual', year: 2025, duration: '3:21', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', youtubeId: 'odYTK2CB2Lc', order: 15 },
+  { id: 'amo', title: 'AMO', artist: '510, Fanny Soegi', album: 'Spiritual', year: 2025, duration: '3:52', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', youtubeId: 'qzl70eDRvhk', order: 14 },
+  { id: 'plastic-faith', title: 'Plastic Faith', artist: '510', album: 'Spiritual', year: 2025, duration: '4:18', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', youtubeId: 'cKnjORGlnYQ', order: 13 },
+  { id: 'r-u-broken-2', title: 'R U Broken 2?', artist: '510', album: 'Spiritual', year: 2025, duration: '4:52', group: 'spiritual', cover: 'assets/spiritual.jpg', spotify: 'https://open.spotify.com/album/4Y6Ibp400mFwp0NCeD9YDF', youtubeId: 'Ee4VkCE6DCQ', order: 12 },
+  { id: 'where-do-we-came-from', title: 'WhereDoWeCameFrom', artist: '510', album: 'Origin', year: 2023, duration: '2:41', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'nWre0IfQPnI', order: 11 },
+  { id: 'collapsed', title: 'Collapsed', artist: '510', album: 'Origin', year: 2021, duration: '3:45', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'PsnHzE-yQCc', order: 10 },
+  { id: 'the-last-suffer', title: 'The Last Suffer', artist: '510', album: 'Origin', year: 2021, duration: '3:57', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'h0wzx0hKrF4', order: 9 },
+  { id: 'death-parade', title: 'Death Parade', artist: '510', album: 'Origin', year: 2023, duration: '3:33', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'D19KL0vEEGU', order: 8 },
+  { id: 'mama', title: 'Mama', artist: '510', album: 'Origin', year: 2023, duration: '4:02', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'Q3ZtirNHvEc', order: 7 },
+  { id: 're-mine', title: 'Re-Mine', artist: '510', album: 'Origin', year: 2023, duration: '3:47', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'XjAC_lsVaXw', order: 6 },
+  { id: 'sorry', title: 'Sorry', artist: '510', album: 'Origin', year: 2023, duration: '4:28', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'ZxLStVwIbus', order: 5 },
+  { id: 'esa', title: 'Esa', artist: '510', album: 'Origin', year: 2023, duration: '4:00', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: '4VbyF6Afma0', order: 4 },
+  { id: 'alive', title: 'Alive', artist: '510', album: 'Origin', year: 2021, duration: '4:11', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'GqV6aapf95k', order: 3 },
+  { id: 'callout', title: 'Callout', artist: '510', album: 'Origin', year: 2023, duration: '3:35', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'xOOWQYkwDyk', order: 2 },
+  { id: 'emotional-renegades', title: 'Emotional Renegades', artist: '510', album: 'Origin', year: 2022, duration: '3:00', group: 'origin', cover: 'assets/origin.jpg', spotify: 'https://open.spotify.com/album/2K5MDbmwFbUulGB2Wsc1dG', youtubeId: 'oQEWYlHlei4', order: 1 }
 ];
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
@@ -41,7 +41,9 @@ const state = {
   favorites: new Set(safeParse('510-favorites', [])),
   queue: safeParse('510-queue', []).filter((id) => byId(id)),
   currentId: 'special',
-  menuTrackId: null
+  menuTrackId: null,
+  repeat: false,
+  muted: false
 };
 
 const audio = $('#audio');
@@ -55,6 +57,42 @@ const queueList = $('#queueList');
 const seekBar = $('#seekBar');
 const volumeBar = $('#volumeBar');
 let toastTimer;
+let youtubePlayer = null;
+let youtubeReady = false;
+let pendingYouTubeId = null;
+
+window.onYouTubeIframeAPIReady = () => {
+  youtubePlayer = new YT.Player('youtubePlayer', {
+    width: '100%',
+    height: '100%',
+    playerVars: { playsinline: 1, rel: 0, modestbranding: 1 },
+    events: {
+      onReady: (event) => {
+        youtubeReady = true;
+        event.target.setVolume(Number(volumeBar.value) * 100);
+        if (pendingYouTubeId) {
+          event.target.loadVideoById(pendingYouTubeId);
+          pendingYouTubeId = null;
+        }
+      },
+      onStateChange: (event) => {
+        const playing = event.data === YT.PlayerState.PLAYING;
+        const stopped = event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED;
+        if (playing) document.body.classList.add('playing');
+        if (stopped) document.body.classList.remove('playing');
+        if (event.data === YT.PlayerState.ENDED) {
+          if (state.repeat) event.target.playVideo();
+          else playNextTrack();
+        }
+      }
+    }
+  });
+};
+
+const youtubeApi = document.createElement('script');
+youtubeApi.src = 'https://www.youtube.com/iframe_api';
+youtubeApi.async = true;
+document.head.append(youtubeApi);
 
 function showToast(message) {
   const toast = $('#toast');
@@ -94,7 +132,7 @@ function renderTracks() {
     <article class="track-row${state.currentId === track.id ? ' current' : ''}" data-track-id="${track.id}">
       <div class="track-number">
         <span>${String(index + 1).padStart(2, '0')}</span>
-        <button type="button" data-play-track="${track.id}" aria-label="${track.local ? 'Putar' : 'Buka'} ${track.title}">
+        <button type="button" data-play-track="${track.id}" aria-label="Putar ${track.title}">
           <svg viewBox="0 0 24 24"><path d="m8 5 11 7-11 7z"/></svg>
         </button>
       </div>
@@ -119,18 +157,31 @@ function updatePlayer(track) {
   renderTracks();
 }
 
-async function playTrack(track, openExternal = true) {
+async function playTrack(track) {
   updatePlayer(track);
+  seekBar.value = 0;
+  $('#currentTime').textContent = '0:00';
+  paintRange(seekBar, 0);
+
   if (!track.local) {
     audio.pause();
-    document.body.classList.remove('playing');
-    seekBar.value = 0;
-    $('#currentTime').textContent = '0:00';
-    paintRange(seekBar, 0);
-    if (openExternal && track.spotify) window.open(track.spotify, '_blank', 'noopener,noreferrer');
-    showToast(`${track.title} dibuka melalui Spotify`);
+    $('#videoDock').hidden = false;
+    $('#videoDockTitle').textContent = `${track.title} — ${track.artist}`;
+    $('#videoSource').href = `https://www.youtube.com/watch?v=${track.youtubeId}`;
+    if (youtubeReady && youtubePlayer?.loadVideoById) {
+      youtubePlayer.setVolume(Number(volumeBar.value) * 100);
+      if (state.muted) youtubePlayer.mute();
+      youtubePlayer.loadVideoById(track.youtubeId);
+    } else {
+      pendingYouTubeId = track.youtubeId;
+      showToast('Menyiapkan pemutar resmi…');
+    }
     return;
   }
+
+  pendingYouTubeId = null;
+  if (youtubeReady && youtubePlayer?.pauseVideo) youtubePlayer.pauseVideo();
+  $('#videoDock').hidden = true;
   try {
     await audio.play();
   } catch {
@@ -140,11 +191,32 @@ async function playTrack(track, openExternal = true) {
 
 async function toggleCurrent() {
   const track = byId(state.currentId);
-  if (!track.local) return playTrack(track, true);
-  if (audio.paused) await playTrack(track, false);
+  if (!track.local) {
+    if (!youtubeReady || !youtubePlayer?.getPlayerState) {
+      pendingYouTubeId = track.youtubeId;
+      $('#videoDock').hidden = false;
+      showToast('Pemutar resmi masih dimuat…');
+      return;
+    }
+    if (youtubePlayer.getPlayerState() === YT.PlayerState.PLAYING) youtubePlayer.pauseVideo();
+    else youtubePlayer.playVideo();
+    return;
+  }
+  if (audio.paused) await playTrack(track);
   else audio.pause();
 }
 
+function playNextTrack() {
+  if (state.queue.length) {
+    const nextId = state.queue.shift();
+    saveQueue();
+    renderQueue();
+    playTrack(byId(nextId));
+    return;
+  }
+  const index = tracks.findIndex((track) => track.id === state.currentId);
+  playTrack(tracks[(index + 1) % tracks.length]);
+}
 function setFilter(filter) {
   state.filter = filter;
   state.favoritesOnly = false;
@@ -229,7 +301,7 @@ function closeMenu() {
 trackList.addEventListener('click', (event) => {
   const playButton = event.target.closest('[data-play-track]');
   const menuButton = event.target.closest('[data-menu-track]');
-  if (playButton) playTrack(byId(playButton.dataset.playTrack), true);
+  if (playButton) playTrack(byId(playButton.dataset.playTrack));
   if (menuButton) {
     event.stopPropagation();
     openMenu(menuButton, menuButton.dataset.menuTrack);
@@ -243,12 +315,9 @@ contextMenu.addEventListener('click', async (event) => {
   const action = actionButton.dataset.menuAction;
   if (action === 'favorite') toggleFavorite(track.id);
   if (action === 'queue') addToQueue(track.id);
-  if (action === 'spotify') {
-    if (track.spotify) window.open(track.spotify, '_blank', 'noopener,noreferrer');
-    else showToast('Special Song hanya tersedia di player ini.');
-  }
+  if (action === 'play') playTrack(track);
   if (action === 'share') {
-    const url = track.spotify || location.href;
+    const url = track.youtubeId ? `https://www.youtube.com/watch?v=${track.youtubeId}` : location.href;
     try {
       if (navigator.share) await navigator.share({ title: `${track.title} — 510`, url });
       else {
@@ -311,75 +380,101 @@ queueList.addEventListener('click', (event) => {
   }
   const item = event.target.closest('[data-queue-id]');
   if (item) {
-    playTrack(byId(item.dataset.queueId), true);
+    playTrack(byId(item.dataset.queueId));
     closeQueue();
   }
 });
 
 $('#likeCurrent').addEventListener('click', () => toggleFavorite(state.currentId));
 $('#mainPlay').addEventListener('click', toggleCurrent);
-$$('[data-play-special]').forEach((button) => button.addEventListener('click', () => playTrack(byId('special'), false)));
+$$('[data-play-special]').forEach((button) => button.addEventListener('click', () => playTrack(byId('special'))));
 
 $('#previousButton').addEventListener('click', () => {
   const index = tracks.findIndex((track) => track.id === state.currentId);
-  playTrack(tracks[(index - 1 + tracks.length) % tracks.length], true);
+  playTrack(tracks[(index - 1 + tracks.length) % tracks.length]);
 });
 
-$('#nextButton').addEventListener('click', () => {
-  if (state.queue.length) {
-    const nextId = state.queue.shift();
-    saveQueue();
-    renderQueue();
-    playTrack(byId(nextId), true);
-    return;
-  }
-  const index = tracks.findIndex((track) => track.id === state.currentId);
-  playTrack(tracks[(index + 1) % tracks.length], true);
-});
+$('#nextButton').addEventListener('click', playNextTrack);
 
 $('#shuffleButton').addEventListener('click', (event) => {
   event.currentTarget.classList.toggle('enabled');
   const candidates = tracks.filter((track) => track.id !== state.currentId);
   const randomTrack = candidates[Math.floor(Math.random() * candidates.length)];
-  updatePlayer(randomTrack);
+  playTrack(randomTrack);
   showToast(`Pilihan acak: ${randomTrack.title}`);
 });
 
 $('#repeatButton').addEventListener('click', (event) => {
-  audio.loop = !audio.loop;
-  event.currentTarget.classList.toggle('enabled', audio.loop);
-  showToast(audio.loop ? 'Ulangi lagu aktif' : 'Ulangi lagu nonaktif');
+  state.repeat = !state.repeat;
+  audio.loop = state.repeat;
+  event.currentTarget.classList.toggle('enabled', state.repeat);
+  showToast(state.repeat ? 'Ulangi lagu aktif' : 'Ulangi lagu nonaktif');
 });
-
 audio.volume = Number(volumeBar.value);
 paintRange(volumeBar, 80);
 audio.addEventListener('play', () => document.body.classList.add('playing'));
 audio.addEventListener('pause', () => document.body.classList.remove('playing'));
+audio.addEventListener('ended', () => {
+  if (!state.repeat) playNextTrack();
+});
 audio.addEventListener('loadedmetadata', () => {
+  if (state.currentId !== 'special') return;
   seekBar.max = audio.duration;
   $('#duration').textContent = formatTime(audio.duration);
 });
 audio.addEventListener('timeupdate', () => {
+  if (state.currentId !== 'special') return;
   seekBar.value = audio.currentTime;
   $('#currentTime').textContent = formatTime(audio.currentTime);
   paintRange(seekBar, (audio.currentTime / audio.duration) * 100 || 0);
 });
+
+setInterval(() => {
+  if (state.currentId === 'special' || !youtubeReady || !youtubePlayer?.getDuration) return;
+  const duration = youtubePlayer.getDuration();
+  const current = youtubePlayer.getCurrentTime();
+  if (!duration) return;
+  seekBar.max = duration;
+  seekBar.value = current;
+  $('#currentTime').textContent = formatTime(current);
+  $('#duration').textContent = formatTime(duration);
+  paintRange(seekBar, (current / duration) * 100);
+}, 500);
+
 seekBar.addEventListener('input', () => {
-  if (state.currentId !== 'special') return;
-  audio.currentTime = Number(seekBar.value);
+  if (state.currentId === 'special') audio.currentTime = Number(seekBar.value);
+  else if (youtubeReady && youtubePlayer?.seekTo) youtubePlayer.seekTo(Number(seekBar.value), true);
   paintRange(seekBar, (seekBar.value / seekBar.max) * 100);
 });
+
 volumeBar.addEventListener('input', () => {
+  state.muted = false;
   audio.muted = false;
   audio.volume = Number(volumeBar.value);
-  paintRange(volumeBar, audio.volume * 100);
-});
-$('#muteButton').addEventListener('click', () => {
-  audio.muted = !audio.muted;
-  paintRange(volumeBar, audio.muted ? 0 : Number(volumeBar.value) * 100);
-  showToast(audio.muted ? 'Audio dibisukan' : 'Audio diaktifkan');
+  if (youtubeReady && youtubePlayer?.setVolume) {
+    youtubePlayer.unMute();
+    youtubePlayer.setVolume(Number(volumeBar.value) * 100);
+  }
+  paintRange(volumeBar, Number(volumeBar.value) * 100);
 });
 
+$('#muteButton').addEventListener('click', () => {
+  state.muted = !state.muted;
+  audio.muted = state.muted;
+  if (youtubeReady && youtubePlayer) {
+    if (state.muted) youtubePlayer.mute();
+    else youtubePlayer.unMute();
+  }
+  paintRange(volumeBar, state.muted ? 0 : Number(volumeBar.value) * 100);
+  showToast(state.muted ? 'Audio dibisukan' : 'Audio diaktifkan');
+});
+
+$('#closeVideo').addEventListener('click', () => {
+  pendingYouTubeId = null;
+  if (youtubeReady && youtubePlayer?.pauseVideo) youtubePlayer.pauseVideo();
+  $('#videoDock').hidden = true;
+  document.body.classList.remove('playing');
+});
 document.addEventListener('keydown', (event) => {
   if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
     event.preventDefault();
@@ -401,3 +496,5 @@ renderTracks();
 renderQueue();
 saveQueue();
 updatePlayer(byId('special'));
+const requestedTrack = new URLSearchParams(location.search).get('play');
+if (requestedTrack && byId(requestedTrack)) setTimeout(() => playTrack(byId(requestedTrack)), 250);

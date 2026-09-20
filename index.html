@@ -162,7 +162,7 @@
     <button type="button" data-menu-action="favorite"><span>♡</span> Tambah ke favorit</button>
     <button type="button" data-menu-action="queue"><span>＋</span> Tambah ke antrean</button>
     <button type="button" data-menu-action="share"><span>↗</span> Bagikan lagu</button>
-    <button type="button" data-menu-action="spotify"><span>◉</span> Buka di Spotify</button>
+    <button type="button" data-menu-action="play"><span>▶</span> Putar di halaman</button>
   </div>
 
   <aside class="queue-drawer" id="queueDrawer" aria-hidden="true">
@@ -206,6 +206,17 @@
     <button class="queue-trigger" type="button"><svg viewBox="0 0 24 24"><path d="M3 6h12M3 12h12M3 18h8M18 15v6M15 18h6"/></svg><span>Antrean</span></button>
   </nav>
 
+
+  <section class="video-dock" id="videoDock" hidden aria-label="Pemutar video resmi">
+    <header>
+      <div><span>OFFICIAL STREAM</span><strong id="videoDockTitle">510</strong></div>
+      <div class="video-dock-actions">
+        <a id="videoSource" href="#" target="_blank" rel="noreferrer">YouTube ↗</a>
+        <button id="closeVideo" type="button" aria-label="Tutup video">×</button>
+      </div>
+    </header>
+    <div class="video-frame"><div id="youtubePlayer"></div></div>
+  </section>
   <audio id="audio" preload="metadata" src="ssstik.io_1789926849641.mp3"></audio>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>

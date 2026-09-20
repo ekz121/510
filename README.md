@@ -5,9 +5,10 @@ Website katalog musik responsif untuk 510, berisi 23 rekaman resmi dari EP Get C
 ## Fitur
 
 - Pemutar audio lokal untuk Special Song
+- Embed video/audio resmi untuk seluruh 23 rekaman 510 tanpa meninggalkan halaman
 - Katalog, pencarian, filter album, dan pengurutan 24 track
 - Favorit serta antrean tersimpan di browser
-- Menu tiap lagu untuk favorit, antrean, berbagi, dan membuka Spotify
+- Menu tiap lagu untuk favorit, antrean, berbagi, dan memutar di halaman
 - Layout responsif desktop dan mobile
 
 ## Menjalankan lokal
